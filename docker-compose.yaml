@@ -10,7 +10,7 @@ services:
       - serve
 
     ports:
-      - 9980:80
+      - "0.0.0.0:9980:80"
      
     volumes:
       - persistence_ntfy_cache_rm:/var/cache/ntfy
